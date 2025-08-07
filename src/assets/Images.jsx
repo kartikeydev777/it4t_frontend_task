@@ -1,4 +1,5 @@
 const IMAGES = {
+        banner: new URL('./banner_main.png', import.meta.url).href,
         img1: new URL('./windfoiling_holidsays.png', import.meta.url).href,
         img2: new URL('./kitesurfing_holidays.png', import.meta.url).href,
         footerBG: new URL('./footerBG.png', import.meta.url).href,

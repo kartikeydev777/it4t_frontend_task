@@ -1,13 +1,13 @@
-import React from 'react'
-import banner from '../../assets/banner_main.png'
+import React, { lazy, Suspense } from 'react'
 import SearchBar from '../global/SearchBar'
-import Powered from '../Home/Powered'
-import Activity from '../Home/Activity'
-import HowWorks from '../Home/HowWorks'
-import OurSecret from '../Home/OurSecret'
-import NeedAdvice from '../Home/NeedAdvice'
-import BestPlaces from '../Home/BestPlaces'
-import NewsLetter from '../Home/NewsLetter'
+import IMAGES from '../../assets/Images';
+const Powered = lazy(() => import('../Home/Powered'));
+const Activity = lazy(() => import('../Home/Activity'));
+const HowWorks = lazy(() => import('../Home/HowWorks'));
+const OurSecret = lazy(() => import('../Home/OurSecret'));
+const NeedAdvice = lazy(() => import('../Home/NeedAdvice'));
+const BestPlaces = lazy(() => import('../Home/BestPlaces'));
+const NewsLetter = lazy(() => import('../Home/NewsLetter'));
 
 export default function Home() {
     return (
@@ -16,7 +16,7 @@ export default function Home() {
 
                 <div className='relative h-[75vh] min-h-[500px]'>
                     <img
-                        src={banner}
+                        src={IMAGES.banner}
                         alt="Ocean sports background"
                         className='w-full h-full object-cover brightness-90'
                     />
@@ -40,20 +40,15 @@ export default function Home() {
             </section>
 
             <section className='lg:w-[70dvw] w-80 mx-auto'>
-                
-                <Powered />
-
-                <Activity />
-
-                <HowWorks />
-
-                <OurSecret />
-
-                <NeedAdvice />
-
-                <BestPlaces />
-
-                <NewsLetter />
+                <Suspense fallback={<div className='text-center py-10'>Loading content...</div>}>
+                    <Powered />
+                    <Activity />
+                    <HowWorks />
+                    <OurSecret />
+                    <NeedAdvice />
+                    <BestPlaces />
+                    <NewsLetter />
+                </Suspense>
             </section>
         </>
     )
