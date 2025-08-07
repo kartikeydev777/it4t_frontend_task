@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+.leckerli-one-regular {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nata-sans-100 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nata-sans-200 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.nata-sans-300 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nata-sans-400 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nata-sans-500 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nata-sans-600 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nata-sans-700 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nata-sans-800 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nata-sans-900 {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
