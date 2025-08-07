@@ -40,4 +40,4 @@ This will generate a `dist` folder. You can then preview the build using:
 ## Technologies Used
 
 * **Vite**: A fast front-end build tool.
-* **React/Vue/etc.**: The front-end framework used.
+* **React**: The front-end framework used.
