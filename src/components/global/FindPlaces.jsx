@@ -95,7 +95,7 @@ export default function FindPlaces() {
                 </div>
             </div>
 
-            <section className='lg:px-10 md:px-10 my-5 flex gap-6'>
+            <section className='lg:px-10 md:px-10 my-5 flex lg:flex-row flex-col gap-6'>
                 {loading ? (
                     Array(3).fill(0).map((_, i) => (
                         <div key={i} className="lg:w-80 w-80 min-h-96 bg-white border border-gray-200 shadow-md animate-pulse">

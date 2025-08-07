@@ -21,18 +21,49 @@ export default function HowWorks() {
                     </div>
                 </div>
 
-                <div className=' my-16 hidden lg:block'>
-
+                <div className=' mb-36 mt-20 hidden lg:block relative'>
                     <div className='absolute'><img src={IMAGES.lineDesk1} alt="" width={'90%'} /></div>
 
-                    <div className='py-8 px-28 flex gap-4 items-start'>
+                    <div className='py-8 -px-4 flex gap-4 items-start'>
+                        <img src={IMAGES.num1} alt="" />
+                        <div className='w-48'>
+                            <h1 className='nata-sans-700 leading-5'>Find your perfect resort</h1>
+                            <p className='nata-sans-400 text-xs mt-1'>use the 'resort finder' if you're not sure the best price for your sport, level and travel month</p>
+                             <button className="flex items-center justify-center gap-1 text-orange-600 text-sm nata-sans-400">
+                                Use finder <i className="ri-arrow-right-circle-fill text-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className='absolute left-70 top-28   flex gap-4 items-start'>
+                        <img src={IMAGES.num2} alt="" />
+                        <div className='w-52'>
+                            <h1 className='nata-sans-700 leading-5'>Choose a hotel and flights</h1>
+                            <p className='nata-sans-400 text-xs mt-1'>All our properties are hand picked. We offer all major airlines from world wide departure airports</p>
+                        </div>
+                    </div>
+
+                    <div className='absolute right-64 top-48  flex gap-4 items-start'>
+                        <img src={IMAGES.num3} alt="" />
+                        <div className='w-52'>
+                            <h1 className='nata-sans-700 leading-5'>Choose your hotel room</h1>
+                            <p className='nata-sans-400 text-xs mt-1'>Adevntures offer the best travel protection in the market</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className=' my-16 hidden lg:block relative'>
+                    <div className='absolute'><img src={IMAGES.lineDesk2} alt="" width={'90%'} /></div>
+
+                    <div className='py-8 px-24 flex gap-4 items-start'>
                         <img src={IMAGES.num4} alt="" />
                         <div className='w-48'>
                             <h1 className='nata-sans-700 leading-5'>Add Sports & Airport Transfer</h1>
                             <p className='nata-sans-400 text-xs mt-1'>we only work with the best sport centres</p>
                         </div>
                     </div>
-                    <div className='absolute right-80 top-72 flex gap-4 items-start'>
+                    <div className='absolute right-80 px-3 top-40 flex gap-4 items-start'>
                         <img src={IMAGES.num5} alt="" />
                         <div className='w-48'>
                             <h1 className='nata-sans-700 leading-5'>Add Names, Pay & book online</h1>

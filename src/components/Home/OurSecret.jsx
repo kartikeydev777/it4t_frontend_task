@@ -4,9 +4,9 @@ import IMAGES from '../../assets/Images'
 export default function OurSecret() {
     return (
         <>
-            <div className='lg:w-full lg:mt-80 lg:min-h-[70dvh]   lg:relative lg:justify-between hidden lg:flex'>
+            <div className='w-full lg:mt-80  lg:min-h-[70dvh]   lg:relative lg:justify-between hidden lg:flex'>
 
-                <div className='bg-gray-100 w-96 h-fit absolute top-20 left-20 py-14 flex flex-col gap-2' >
+                <div className='bg-gray-100 w-96 h-fit absolute top-20 left-0 py-14 flex flex-col gap-2' >
                     <div className="flex flex-col items-center justify-center text-center w-72 ">
                         <div className="flex items-center w-full max-w-lg justify-center">
                             <h2 className="text-3xl nata-sans-700 text-gray-900 whitespace-nowrap ml-15">What is </h2>
